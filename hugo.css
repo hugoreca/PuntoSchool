@@ -1,6 +1,7 @@
 .wrapper {
     display: flex;
     width: 100%;
+    background-image: url(/Resources/assets/Recurso\ 17.png);
 }
 
 #sidebar {
@@ -78,7 +79,7 @@ footer {
   bottom: 0;
   width: 100%;
   position: fixed;
-  height: 75px;
+  height: 70px;
   background-color: #f3eded;
   z-index: 6;
 }
@@ -157,7 +158,7 @@ footer a:hover{
 
 div.progress {
   border-radius: 1.25rem;
-  height: 30px;
+  height: 45px;
   padding: 3px;
 }
 
@@ -183,7 +184,18 @@ div.progress {
   margin-right: 10px;
 }
 
-.form-group {
-  width: 100%;
-  height: 100%;
+#page_content {
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+#submit_button {
+  width: 100px;
+  margin-left: 35%;
+}
+
+.custom-control {
+  margin-left: 37%;
 }

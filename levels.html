@@ -51,32 +51,37 @@
 
     </nav>
     <!-- Page Content -->
-    <!-- Default unchecked -->
-    <form role="form-group">
-        <div class="checkbox_control d-flex justify-content-between flex-column">
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="Maternal" name="checks">
-                <label class="custom-control-label" for="Maternal">Maternal</label>
-            </div>
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="Preescolar" name="checks">
-                <label class="custom-control-label" for="Preescolar">Preescolar</label>
-            </div>
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="Primaria" name="checks">
-                <label class="custom-control-label" for="Primaria">Primaria</label>
-            </div>
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="Secundaria" name="checks">
-                <label class="custom-control-label" for="Secundaria">Secundaria</label>
-            </div>
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="Preparatoria" name="checks">
-                <label class="custom-control-label" for="Preparatoria">Preparatoria</label>
-            </div>
+    <div id="page_content" style="display:flex;justify-content:center;align-items:center;">
+        <div class="d-flex flex-column justify-content-center">
+            <h3>Selecciona los niveles que tiene tu escuela</h3>
+            <form role="form-group">
+                <div class="checkbox_control d-flex justify-content-between flex-column">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Maternal" name="checks">
+                        <label class="custom-control-label" for="Maternal">Maternal</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Preescolar" name="checks">
+                        <label class="custom-control-label" for="Preescolar">Preescolar</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Primaria" name="checks">
+                        <label class="custom-control-label" for="Primaria">Primaria</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Secundaria" name="checks">
+                        <label class="custom-control-label" for="Secundaria">Secundaria</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Preparatoria" name="checks">
+                        <label class="custom-control-label" for="Preparatoria">Preparatoria</label>
+                    </div>
+                </div>
+            </form>
+            <br>
+            <input id="submit_button" class="btn btn-primary" type="submit" value="Submit">
         </div>
-    </form>
-      
+      </div>
 <!-- footer -->
     <footer class="container-fluid footer">
         <nav class="navbar navbar-default navbar-custom">
